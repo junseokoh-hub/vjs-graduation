@@ -19,9 +19,6 @@ body {
   align-items: center;
   overflow: hidden;
 }
-body.active {
-  background: #222;
-}
 
 .wrapper {
   width: 1300px;
@@ -36,6 +33,7 @@ body.active {
 }
 
 .wrapper.active {
+  background: #222;
   box-shadow: 0px 4px 4px 4px #444, inset 4px 4px 4px 4px rgba(0, 0, 0, 1);
 }
 #login-form {

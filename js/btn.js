@@ -1,4 +1,3 @@
-const body = document.querySelector("body");
 const container = document.querySelector(".container");
 const btn = document.querySelector(".btn");
 const wrapper = document.querySelector(".wrapper");
@@ -9,7 +8,6 @@ const quoters = document.querySelector(".quotes")
 
 function clickButton(event) {
     event.preventDefault();
-    body.classList.toggle("active");
     btn.classList.toggle("active");
     container.classList.toggle("active");
     wrapper.classList.toggle("active");

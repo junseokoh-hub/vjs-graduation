@@ -1,0 +1,86 @@
+/*btn*/
+
+.container {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #f8f8f8;
+  box-shadow: inset 4px 4px 4px 4px rgba(0, 0, 0, 0.1),
+    inset 8px 8px 8px 8px rgba(0, 0, 0, 0.1),
+    4px 4px 4px 4px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.container.active {
+  background: rgb(59, 57, 57);
+  box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
+    inset 0 2px 8px rgba(0, 0, 0, 0.5), inset 0 -4px 8px rgba(0, 0, 0, 0.7);
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.5),
+    inset 4px 4px 4px 4px rgba(255, 255, 255, 1),
+    inset 8px 8px 8px 8px rgba(255, 255, 255, 1);
+  transform: scale(0.9);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn.active {
+  background: #222;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1),
+    inset 0 4px 4px rgba(82, 79, 79, 0.041),
+    inset 0 -4px 4px rgba(82, 73, 73, 0.5);
+}
+.container.active .btn {
+  left: 50px;
+}
+
+/*side-bar*/
+
+.side-bar {
+  padding: 10px;
+  text-align: center;
+}
+
+.side-bar h1 {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 40px;
+  font-size: 30px;
+  padding: 20px;
+  box-shadow: var(--white-box);
+}
+
+.side-bar h1.active {
+  box-shadow: var(--black-box);
+}
+
+.active {
+  color: #f9f9f9;
+}
+
+.conditions {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: var(--white-box);
+}
+
+.conditions.active {
+  box-shadow: var(--black-box);
+}
+
+.conditions__title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+.city {
+  margin-top: 5px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Vanilla Javascript Project</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 id="ask" class="hidden">Please tell me your name...</h1>
+      <form id="login-form" class="hidden">
+        <input type="text" maxlength="4" />
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      <nav class="side-bar">
+        <div class="container">
+          <!--<button class="btn"></button>-->
+          <div class="btn"></div>
+        </div>
+        <div class="conditions">
+          <div class="conditions__title"><span>Weather & Place<span></div>
+          <h2 class="city"></h2>
+          <h2 class="weather"></h2>
+        </div>
+      </nav>
+      <main class="main">
+        <header class="header-bar">
+          <h1 class="month"></h1>
+          <h2 class="clock">00:00:00</h2>
+        </header>
+        <section></section>
+        <footer class="quotes">
+          <h3 class="quote"></h3>
+          <h3 class="author"></h3>
+        </footer>
+      </main>
+      <div class="next-bar"></div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/btn.js"></script>
+    <script src="js/side-bar.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/quotes.js"></script>
+  </body>
+</html>

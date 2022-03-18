@@ -1,0 +1,18 @@
+.quotes {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: var(--white-box);
+  border-radius: 20px;
+}
+
+.quotes.active {
+  box-shadow: var(--black-box);
+}
+
+.quotes h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

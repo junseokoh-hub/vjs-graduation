@@ -3,6 +3,7 @@ const facebook = document.querySelector(".facebook");
 const instagram = document.querySelector(".instagram");
 const twitter = document.querySelector(".twitter");
 const youtube = document.querySelector(".youtube");
+const nomadcoders = document.querySelector(".nomadcoders");
 
 
 
@@ -12,7 +13,7 @@ function openMenu() {
     instagram.classList.toggle("open");
     twitter.classList.toggle("open");
     youtube.classList.toggle("open");
-
+    nomadcoders.classList.toggle("open");
 }
 
 circle.addEventListener("click", openMenu);

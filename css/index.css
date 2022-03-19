@@ -115,7 +115,6 @@ body {
   height: 90%;
   width: 15%;
   border-radius: var(--border-radius);
-  border: 1px solid black;
   position: absolute;
   right: 50px;
   transition: all 1.5s ease-in-out;

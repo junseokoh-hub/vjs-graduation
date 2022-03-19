@@ -14,7 +14,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 20%;
+  margin-left: 25%;
   z-index: 1000;
 }
 .plus-circle.active {

@@ -30,7 +30,16 @@
           <h1 class="month"></h1>
           <h2 class="clock">00:00:00</h2>
         </header>
-        <section></section>
+        <section class="todo-container">
+          <h1>Write your plans</h1>
+          <form cllass="todo-form">
+              <input type="text" class="todo-input" />
+              <button class="todo-button__add">
+                  <i class="fas fa-plus-square"></i>
+              </button>
+          </form>
+          <ul class="todo-list"></ul>
+        </section>
         <footer class="quotes">
           <h3 class="quote"></h3>
           <h3 class="author"></h3>
@@ -38,6 +47,7 @@
       </main>
       <div class="next-bar"></div>
     </div>
+    <!--JS-->
     <script src="js/index.js"></script>
     <script src="js/btn.js"></script>
     <script src="js/side-bar.js"></script>
@@ -45,5 +55,11 @@
     <script src="js/main.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/todo-list.js"></script>
+    <!--fontaweseome-->
+    <script
+      src="https://kit.fontawesome.com/c66bfa427e.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

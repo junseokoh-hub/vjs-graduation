@@ -1,14 +1,14 @@
 .header-bar {
   width: 100%;
   height: 20%;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   box-shadow: var(--white-box);
 }
 
 .header-bar h1 {
   width: 100%;
   height: 50%;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
 .header-bar h2 {
   width: 100%;
   height: 40%;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   display: flex;
   justify-content: center;
   align-items: center;

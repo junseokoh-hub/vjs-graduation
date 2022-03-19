@@ -24,4 +24,5 @@
 
 .header-bar.active {
   box-shadow: var(--black-box);
+  color: var(--white-color);
 }

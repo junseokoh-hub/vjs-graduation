@@ -4,4 +4,5 @@
     inset 4px 4px 4px 4px rgba(82, 79, 79, 0.041),
     inset 8px 8px 8px 8px rgba(82, 73, 73, 0.5);
   --border-radius: 20px;
+  --white-color: #f9f9f9;
 }

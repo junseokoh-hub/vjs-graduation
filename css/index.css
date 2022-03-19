@@ -4,6 +4,7 @@
 @import "./side-bar.css";
 @import "./quotes.css";
 @import "./todo-list.css";
+@import "./menu.css";
 /*variables*/
 @import "./variables.css";
 
@@ -110,6 +111,7 @@ body {
   transform: translatey(800px);
 }
 .next-bar {
+  display: flex;
   height: 90%;
   width: 15%;
   border-radius: var(--border-radius);

@@ -7,6 +7,7 @@ const headerBar = document.querySelector(".header-bar");
 const quoters = document.querySelector(".quotes")
 const toDoContainer = document.querySelector(".todo-container");
 const notice = document.querySelector(".todo-container h1");
+const plusCircle = document.querySelector(".plus-circle");
 
 function clickButton(event) {
     event.preventDefault();
@@ -20,6 +21,7 @@ function clickButton(event) {
     toDoContainer.classList.toggle("active");
     toDoList.classList.toggle("active");
     notice.classList.toggle("active");
+    plusCircle.classList.toggle("active");
 }
 
 btn.addEventListener("click", clickButton);

@@ -1,0 +1,87 @@
+.plus-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: yellow;
+  box-shadow: var(--white-box);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 20%;
+  z-index: 1000;
+}
+.plus-circle.active {
+  box-shadow: var(--black-box);
+}
+
+.plus-circle.rotate {
+  transform: rotatez(310deg);
+}
+
+.site-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.site-links li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 50px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.facebook {
+  transition: 1s ease;
+}
+.facebook.open {
+  transform: translateY(300px);
+  opacity: 1;
+}
+.instagram {
+  transition: 1s ease;
+}
+.instagram.open {
+  transform: translateY(200px);
+  opacity: 1;
+}
+.twitter {
+  transition: 1s ease;
+}
+.twitter.open {
+  transform: translateY(100px);
+  opacity: 1;
+}
+.youtube {
+  transition: 1s ease;
+}
+.youtube.open {
+  transform: translateY(400px);
+  opacity: 1;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-instagram {
+  color: rgb(221, 42, 123);
+}
+.fa-youtube {
+  color: rgb(230, 33, 23);
+}
+.fa-twitter {
+  color: #00acee;
+}

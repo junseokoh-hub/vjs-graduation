@@ -5,6 +5,8 @@ const h1 = document.querySelector(".side-bar h1");
 const conditions = document.querySelector(".conditions");
 const headerBar = document.querySelector(".header-bar");
 const quoters = document.querySelector(".quotes")
+const toDoContainer = document.querySelector(".todo-container");
+const notice = document.querySelector(".todo-container h1");
 
 function clickButton(event) {
     event.preventDefault();
@@ -15,6 +17,9 @@ function clickButton(event) {
     conditions.classList.toggle("active");
     headerBar.classList.toggle("active");
     quoters.classList.toggle("active");
+    toDoContainer.classList.toggle("active");
+    toDoList.classList.toggle("active");
+    notice.classList.toggle("active");
 }
 
 btn.addEventListener("click", clickButton);

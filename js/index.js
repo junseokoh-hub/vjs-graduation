@@ -24,7 +24,7 @@ function paintGreetings(username) {
     setTimeout(mainAppear);
     const h1 = document.createElement("h1");
     sideBar.insertBefore(h1, sideBar.childNodes[2]);
-    h1.innerText=greeting.innerText;
+    h1.innerHTML= greeting.innerText;
 }
 
 function mainAppear() {

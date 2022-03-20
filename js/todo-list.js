@@ -47,11 +47,11 @@ function removeToDo(event) {
     const li = event.target.parentElement;
     if (btn.classList[0] === "todo-button__remove") {
         li.remove();
+        toDos = toDos.filter((delId) => delId.id !== parseInt(li.id));
     }
     if(btn.classList[0] === "todo-button__check") {
         li.classList.toggle("checked");
     }
-    toDos = toDos.filter((delId) => delId.id !== parseInt(li.id));
     saveToDo();
 }
 
